@@ -1,8 +1,8 @@
 import sys
-put = sys.stdin.readline
+input = sys.stdin.readline
 print = sys.stdout.write
 
-n = int(put().rstrip())
+n = int(input().rstrip())
 for i in range(n):
-    a , b = map(int , put().rstrip().split())
+    a , b = map(int , input().rstrip().split())
     print(str(a + b) + "\n")
